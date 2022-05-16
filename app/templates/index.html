@@ -22,8 +22,8 @@
                     <th scope="col">#</th>
                     <th scope="col" class="text-start">Nome</th>
                     <th scope="col">Pontos</th>
-                    <th scope="col">Vitórias</th>
-                    <th scope="col">Empates</th>
+                    <th scope="col">V</th>
+                    <th scope="col">E</th>
                     <th scope="col">U.A.</th>
                     <th scope="col">Nº Palpites</th>
                 </tr>
@@ -31,19 +31,23 @@
             <tbody>
                 {% for page in pages %}
                     <tr>
-                        <th scope="row">
-                            {% if page.row == 1 %}
-                                <i class="bi bi-trophy"></i>
-                            {% else %}
-                                {{ page.row }}
-                            {% endif %}
-                        </th>
-                        <td class="text-start">{{ page.name }}</td>
-                        <td>{{ page.points }}</td>
-                        <td>{{ page.victory }}</td>
-                        <td>{{ page.tie }}</td>
-                        <td>{{ page.last_correct }}</td>
-                        <td>{{ page.rounds }}</td>
+                        {% if page.row == 1 %}
+                            <th scope="row"><i class="bi bi-trophy text-warning"></i></th>
+                            <td class="text-start text-warning">{{ page.name }}</td>
+                            <td class="text-warning">{{ page.points }}</td>
+                            <td class="text-warning">{{ page.victory }}</td>
+                            <td class="text-warning">{{ page.tie }}</td>
+                            <td class="text-warning">{{ page.last_correct }}</td>
+                            <td class="text-warning">{{ page.rounds }}</td>
+                        {% else %}
+                            <th scope="row">{{ page.row }}</th>
+                            <td class="text-start">{{ page.name }}</td>
+                            <td>{{ page.points }}</td>
+                            <td>{{ page.victory }}</td>
+                            <td>{{ page.tie }}</td>
+                            <td>{{ page.last_correct }}</td>
+                            <td>{{ page.rounds }}</td>
+                        {% endif %}
                     </tr>
                 {% endfor %}
 
