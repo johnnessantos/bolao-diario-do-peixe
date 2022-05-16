@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, Response
 
-from backend import ranking, calcule
+from .backend import ranking, calcule
 
 app = Flask(__name__)
 
