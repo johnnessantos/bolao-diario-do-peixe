@@ -19,7 +19,7 @@ def __add_points(current_ranking, shot_user_name, point, game_number):
     for user in current_ranking:
         if user['name'] == shot_user_name:
             user['points'] += point
-            user['corrected'] += 1
+            user['victory'] += 1
             updated = True
 
     if not updated:
@@ -27,7 +27,7 @@ def __add_points(current_ranking, shot_user_name, point, game_number):
             {
                 'name': shot_user_name,
                 'points': point,
-                'corrected': 1,
+                'victory': 1,
                 'last_correct': game_number
             }
         )

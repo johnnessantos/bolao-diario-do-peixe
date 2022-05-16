@@ -2,4 +2,4 @@ venv
 __pycache__
 .pyc
 
-configs.txt
+scripts/data/

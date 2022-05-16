@@ -1,26 +1,410 @@
 [
     {
         "name": "Wagner",
+        "points": 17,
+        "victory": 8,
+        "tie": 2,
+        "last_correct": 20,
+        "rounds": 22
+    },
+    {
+        "name": "Giovane",
+        "points": 17,
+        "victory": 5,
+        "tie": 5,
+        "last_correct": 20,
+        "rounds": 25
+    },
+    {
+        "name": "Pauleta",
         "points": 16,
-        "corrected": 7,
-        "last_correct": 20
-    },
-    {
-            "name": "Giovane",
-            "points": 16,
-            "corrected": 4,
-            "last_correct": 20
-    },
-    {
-            "name": "Pauleta",
-            "points": 15,
-            "corrected": 7,
-            "last_correct": 21
+        "victory": 8,
+        "tie": 1,
+        "last_correct": 21,
+        "rounds": 22
     },
     {
         "name": "Rogério",
+        "points": 14,
+        "victory": 8,
+        "tie": 1,
+        "last_correct": 21,
+        "rounds": 25
+    },
+    {
+        "name": "Arturo",
+        "points": 12,
+        "victory": 9,
+        "tie": 1,
+        "last_correct": 20,
+        "rounds": 22
+    },
+    {
+        "name": "Johnnes",
         "points": 13,
-        "corrected": 7,
-        "last_correct": 21
+        "victory": 5,
+        "tie": 2,
+        "last_correct": 12,
+        "rounds": 17
+    },
+    {
+        "name": "Sergio Jesus",
+        "points": 13,
+        "victory": 4,
+        "tie": 1,
+        "last_correct": 15,
+        "rounds": 22
+    },
+    {
+        "name": "Francisco",
+        "points": 13,
+        "victory": 2,
+        "tie": 7,
+        "last_correct": 4,
+        "rounds": 24
+    },
+    {
+        "name": "Adair",
+        "points": 12,
+        "victory": 9,
+        "tie": 1,
+        "last_correct": 16,
+        "rounds": 24
+    },
+    {
+        "name": "Douglas",
+        "points": 12,
+        "victory": 7,
+        "tie": 0,
+        "last_correct": 21,
+        "rounds": 21
+    },
+    {
+        "name": "Pedro",
+        "points": 12,
+        "victory": 6,
+        "tie": 2,
+        "last_correct": 5,
+        "rounds": 25
+    },
+    {
+        "name": "Leandro F",
+        "points": 11,
+        "victory": 8,
+        "tie": 1,
+        "last_correct": 6,
+        "rounds": 25
+    },
+    {
+        "name": "Joca",
+        "points": 11,
+        "victory": 8,
+        "tie": 0,
+        "last_correct": 21,
+        "rounds": 24
+    },
+    {
+        "name": "Igor",
+        "points": 11,
+        "victory": 5,
+        "tie": 0,
+        "last_correct": 6,
+        "rounds": 13
+    },
+    {
+        "name": "Flausino",
+        "points": 10,
+        "victory": 8,
+        "tie": 0,
+        "last_correct": 0,
+        "rounds": 23
+    },
+    {
+        "name": "João Alves",
+        "points": 10,
+        "victory": 8,
+        "tie": 0,
+        "last_correct": 21,
+        "rounds": 23
+    },
+    {
+        "name": "Fabio R",
+        "points": 10,
+        "victory": 6,
+        "tie": 1,
+        "last_correct": 16,
+        "rounds": 24
+    },
+    {
+        "name": "Marcello",
+        "points": 10,
+        "victory": 5,
+        "tie": 0,
+        "last_correct": 9,
+        "rounds": 17
+    },
+    {
+        "name": "Paulo M",
+        "points": 9,
+        "victory": 7,
+        "tie": 0,
+        "last_correct": 0,
+        "rounds": 24
+    },
+    {
+        "name": "Alberto",
+        "points": 9,
+        "victory": 6,
+        "tie": 1,
+        "last_correct": 6,
+        "rounds": 24
+    },
+    {
+        "name": "Bruno",
+        "points": 9,
+        "victory": 4,
+        "tie": 1,
+        "last_correct": 21,
+        "rounds": 9
+    },
+    {
+        "name": "Ana",
+        "points": 8,
+        "victory": 8,
+        "tie": 0,
+        "last_correct": 0,
+        "rounds": 25
+    },
+    {
+        "name": "Carlos",
+        "points": 8,
+        "victory": 8,
+        "tie": 0,
+        "last_correct": 0,
+        "rounds": 24
+    },
+    {
+        "name": "Luiz Arias",
+        "points": 8,
+        "victory": 8,
+        "tie": 0,
+        "last_correct": 0,
+        "rounds": 21
+    },
+    {
+        "name": "Leo",
+        "points": 8,
+        "victory": 6,
+        "tie": 2,
+        "last_correct": 0,
+        "rounds": 24
+    },
+    {
+        "name": "Ricardo L",
+        "points": 8,
+        "victory": 4,
+        "tie": 0,
+        "last_correct": 23,
+        "rounds": 17
+    },
+    {
+        "name": "Ronaldão",
+        "points": 7,
+        "victory": 5,
+        "tie": 1,
+        "last_correct": 0,
+        "rounds": 25
+    },
+    {
+        "name": "Ricardo F",
+        "points": 7,
+        "victory": 5,
+        "tie": 0,
+        "last_correct": 23,
+        "rounds": 31
+    },
+    {
+        "name": "Jeferson",
+        "points": 6,
+        "victory": 6,
+        "tie": 0,
+        "last_correct": 0,
+        "rounds": 11
+    },
+    {
+        "name": "Fernanda",
+        "points": 6,
+        "victory": 4,
+        "tie": 0,
+        "last_correct": 2,
+        "rounds": 8
+    },
+    {
+        "name": "Ricardo C",
+        "points": 6,
+        "victory": 4,
+        "tie": 0,
+        "last_correct": 3,
+        "rounds": 16
+    },
+    {
+        "name": "Laurinha",
+        "points": 6,
+        "victory": 4,
+        "tie": 0,
+        "last_correct": 23,
+        "rounds": 13
+    },
+    {
+        "name": "Miguel",
+        "points": 6,
+        "victory": 3,
+        "tie": 1,
+        "last_correct": 2,
+        "rounds": 8
+    },
+    {
+        "name": "Fabio Reis",
+        "points": 6,
+        "victory": 2,
+        "tie": 1,
+        "last_correct": 6,
+        "rounds": 9
+    },
+    {
+        "name": "Paulo E",
+        "points": 5,
+        "victory": 5,
+        "tie": 0,
+        "last_correct": 0,
+        "rounds": 11
+    },
+    {
+        "name": "Leonardo",
+        "points": 5,
+        "victory": 3,
+        "tie": 0,
+        "last_correct": 22,
+        "rounds": 4
+    },
+    {
+        "name": "Lesnok",
+        "points": 5,
+        "victory": 2,
+        "tie": 0,
+        "last_correct": 0,
+        "rounds": 19
+    },
+    {
+        "name": "Luiz Feliphe",
+        "points": 4,
+        "victory": 2,
+        "tie": 0,
+        "last_correct": 6,
+        "rounds": 5
+    },
+    {
+        "name": "João Martins",
+        "points": 2,
+        "victory": 2,
+        "tie": 0,
+        "last_correct": 0,
+        "rounds": 8
+    },
+    {
+        "name": "Sandro",
+        "points": 2,
+        "victory": 2,
+        "tie": 0,
+        "last_correct": 0,
+        "rounds": 4
+    },
+    {
+        "name": "Leandro Ferrete",
+        "points": 2,
+        "victory": 0,
+        "tie": 1,
+        "last_correct": 0,
+        "rounds": 4
+    },
+    {
+        "name": "Christian",
+        "points": 2,
+        "victory": 0,
+        "tie": 0,
+        "last_correct": 0,
+        "rounds": 2
+    },
+    {
+        "name": "Bruno S",
+        "points": 1,
+        "victory": 1,
+        "tie": 0,
+        "last_correct": 0,
+        "rounds": 1
+    },
+    {
+        "name": "Enzo",
+        "points": 1,
+        "victory": 0,
+        "tie": 1,
+        "last_correct": 0,
+        "rounds": 1
+    },
+    {
+        "name": "Vina",
+        "points": 0,
+        "victory": 0,
+        "tie": 0,
+        "last_correct": 0,
+        "rounds": 8
+    },
+    {
+        "name": "Pedro V",
+        "points": 0,
+        "victory": 0,
+        "tie": 0,
+        "last_correct": 0,
+        "rounds": 3
+    },
+    {
+        "name": "Danilo C",
+        "points": 0,
+        "victory": 0,
+        "tie": 0,
+        "last_correct": 0,
+        "rounds": 2
+    },
+    {
+        "name": "Gean",
+        "points": 0,
+        "victory": 0,
+        "tie": 0,
+        "last_correct": 0,
+        "rounds": 1
+    },
+    {
+        "name": "Gualb",
+        "points": 0,
+        "victory": 0,
+        "tie": 0,
+        "last_correct": 0,
+        "rounds": 1
+    },
+    {
+        "name": "João A R",
+        "points": 0,
+        "victory": 0,
+        "tie": 0,
+        "last_correct": 0,
+        "rounds": 1
+    },
+    {
+        "name": "Nelio",
+        "points": 0,
+        "victory": 0,
+        "tie": 0,
+        "last_correct": 0,
+        "rounds": 1
     }
 ]

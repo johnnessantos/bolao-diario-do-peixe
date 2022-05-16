@@ -20,9 +20,12 @@
             <thead>
                 <tr>
                     <th scope="col">#</th>
-                    <th scope="col">Nome</th>
+                    <th scope="col" class="text-start">Nome</th>
                     <th scope="col">Pontos</th>
-                    <th scope="col">Acertos</th>
+                    <th scope="col">Vitórias</th>
+                    <th scope="col">Empates</th>
+                    <th scope="col">U.A.</th>
+                    <th scope="col">Nº Palpites</th>
                 </tr>
             </thead>
             <tbody>
@@ -35,9 +38,12 @@
                                 {{ page.row }}
                             {% endif %}
                         </th>
-                        <td>{{ page.name }}</td>
+                        <td class="text-start">{{ page.name }}</td>
                         <td>{{ page.points }}</td>
-                        <td>{{ page.corrected }}</td>
+                        <td>{{ page.victory }}</td>
+                        <td>{{ page.tie }}</td>
+                        <td>{{ page.last_correct }}</td>
+                        <td>{{ page.rounds }}</td>
                     </tr>
                 {% endfor %}
 
