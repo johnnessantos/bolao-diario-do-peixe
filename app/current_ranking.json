@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Wagner",
+        "points": 16,
+        "corrected": 7,
+        "last_correct": 20
+    },
+    {
+            "name": "Giovane",
+            "points": 16,
+            "corrected": 4,
+            "last_correct": 20
+    },
+    {
+            "name": "Pauleta",
+            "points": 15,
+            "corrected": 7,
+            "last_correct": 21
+    },
+    {
+        "name": "Rogério",
+        "points": 13,
+        "corrected": 7,
+        "last_correct": 21
+    }
+]

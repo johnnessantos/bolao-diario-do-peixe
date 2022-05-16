@@ -1,0 +1,14 @@
+{
+    "shots": [
+        {
+            "name": "foo",
+            "santos": 0,
+            "adversary": 1
+        }
+    ],
+    "game": {
+        "santos": 0,
+        "adversary": 1,
+        "number": 22
+    }
+}
